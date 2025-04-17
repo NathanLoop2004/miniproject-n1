@@ -1,4 +1,11 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+body{
+  position: absolute;
+  overflow-x: hidden;
+}
 
 @theme {
     --drop-shadow-3xl: -12px -46px 95px rgba(154, 221, 56, 0.8); 
