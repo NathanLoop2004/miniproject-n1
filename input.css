@@ -10,12 +10,60 @@ body{
     --drop-shadow-3xl: -12px -46px 95px rgba(154, 221, 56, 0.8); 
   }
 
+
+  /*Dark Mode */
+  @theme {
+    --drop-shadow-3xld: -12px -46px 95px rgba(0, 81, 135, 0.91); 
+  }
+
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
   @theme {
     --drop-shadow-4xl: -50px -46px 60px rgba(255,255,255, 0.2); 
   }
+
+
+/*Dark Mode */
+
+@theme {
+  --drop-shadow-4xld: -50px -46px 60px rgba(0, 81, 135, 0.91); 
+}
+
+
+
+/*----------------------------------------------------------------------*/
+
+
   @theme {
     --drop-shadow-5xl: -50px -46px 60px rgba(255,255,255, 0.3); 
   }
+
+
+/*Dark Mode  */
+
+
+@theme {
+  --drop-shadow-5xld: -50px -46px 60px rgba(0, 81, 135, 0.91); 
+}
+
+
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+
   @theme {
     --drop-shadow-6xl: 50px 0px 60px rgba(255,255,255, 0.3); 
+  }
+
+  /*Dark Mode */
+
+  @theme {
+    --drop-shadow-6xld: 50px 0px 60px rgba(0, 81, 135, 0.91); 
   }
