@@ -403,3 +403,135 @@ section3.innerHTML = "";
 section3.innerHTML += `
  <img src="${arraySection3[0]}" class="h-60 w-40 rounded-[10px] rotate-[5deg] border-white  drop-shadow-4xl dark:drop-shadow-4xld transition ease-in-out delay-500 duration-[1s]">
 `
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//MY SKILLS
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+//Tittle
+
+
+const arrayTittle = [
+    "MY SKILLS",
+]
+
+let tittle = document.getElementById("skills1")
+
+tittle.innerHTML = "";
+
+tittle.innerHTML += `
+<h1 class="text-[#A4FF7A] dark:text-[#034ec7] mx-auto text-center text-[70px] mt-[-30px] font-semibold">${arrayTittle[0]}</h1>
+`
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//THE WORKS CLOSEST TO MY HEART
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Section 1
+
+const Array2Section = [
+"THE WORKS CLOSEST TO MY HEART",
+"SHOW MY PROJECTS",
+]
+
+let section_2 = document.getElementById("section-2")
+
+section_2.innerHTML = "";
+
+section_2.innerHTML += `
+<div class="  h-[40%] w-[50%] ml-25 ">
+      <h1 class="text-[45px] text-white font-semibold text-center mt-[-120px] lg:mt-0 dark:text-[#034ec7] transition ease-in-out delay-500 duration-[1s]">${Array2Section[0]}</h1>
+    </div>
+    
+    <button class="bg-[#A4FF7A] hover:bg-[#6bbd68] dark:bg-[#034ec7] cursor-pointer hover:dark:bg-[#038fc7] dark:text-white px-35 bottom-18 left-17 py-4 rounded-[30px] font-bold absolute z-1 text-nowrap transition ease-in-out delay-500 duration-[1s]">${Array2Section[1]}</button>
+`
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Section 2
+
+const section3Array = [
+    "./img-3/istockphoto-1205230318-612x612.jpg",
+    "Plumbing Company",
+]
+
+let section_3 = document.getElementById("section-3")
+
+section_3.innerHTML = "";
+
+section_3.innerHTML += 
+`
+ <div class="w-[97%] h-[97%]  rounded-[20px] relative">
+      <img src="${section3Array[0]}" alt="img-3" class="w-250 h-[100%] rounded-[20px]">
+      <h1 class="text-[23px] absolute bottom-22 left-12 text-white text-warp h-10 w-10 font-bold hidden lg:block">${section3Array[1]}</h1>
+      </div>
+`
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Section 3
+
+const Section4Array = [
+    "./img-3/vertical-pictures-d8n9viqi1q14gwj2.jpg",
+]
+
+let section_4 = document.getElementById("section-4")
+
+section_4.innerHTML = "";
+
+section_4.innerHTML += `
+<div class="w-[80%] h-[97%]  rounded-[20px] ml-5">
+        <img src="${Section4Array[0]}" class="w-250 h-[100%] rounded-[20px]">
+      </div>
+`
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Section 4
+
+const Section5Array = [
+    "./img-3/photo-1526512340740-9217d0159da9.jpeg"
+]
+
+let section_5 = document.getElementById("section-5")
+
+section_5.innerHTML = "";
+
+section_5.innerHTML += 	`
+<div class="w-[80%] h-[97%]  rounded-[20px]">
+     <img src="${Section5Array[0]}" class="w-250 h-[100%] rounded-[20px]">
+      </div>
+`
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//Les´t Have A Chat
+
+
+
+const arrayChat = [
+    "LET´S HAVE A CHAT",
+]
+
+let chat = document.getElementById("haveChat")
+
+chat.innerHTML = "";
+
+chat.innerHTML +=  `
+<h1 class="font-bold text-[50px]">${arrayChat[0]}</h1>
+`
