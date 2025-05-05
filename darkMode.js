@@ -134,7 +134,7 @@ presentacion.innerHTML +=
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//Card
+//Card  1
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -155,6 +155,7 @@ chartLetters.innerHTML = `
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+//StarChart
 
 const arrayStart = [
     "./Photo/icons8-estrella-48.png",
@@ -175,3 +176,230 @@ for (let index = 0; index < 4; index++) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//LetterChartMini
+
+const arrayChartLettersMini = [
+    "Worked for a major Australian startup from Canberra, working on an ecommerce application",
+]
+
+let captionLettersMini = document.getElementById("chartMiniText")
+
+captionLettersMini.innerHTML = "";
+
+captionLettersMini.innerHTML = `
+ <p>${arrayChartLettersMini[0]}</p>
+`
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Card 2
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 2
+const arraySection2 = [
+    "./Photo/klipartz.com.png",
+    "MY PROJECTS",
+]
+
+let section2 = document.getElementById("section2");
+
+section2.innerHTML = "";
+
+section2.innerHTML += `
+ <img src="${arraySection2[0]}" class="h-[91%] drop-shadow-3xl dark:drop-shadow-3xld transition ease-in-out delay-500 duration-[1s]">
+            <button class="bg-[#A4FF7A] hover:bg-[#6bbd68] dark:bg-[#034ec7] hover:dark:bg-[#038fc7] dark:text-white dark:border-2 px-4 py-1 bottom-8 lg:left-48 left-60 rounded-[30px] font-bold absolute border-2 cursor-pointer transition ease-in-out delay-500 duration-[1s]">${arraySection2[1]}</button>
+            
+`
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Card 3
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Card 3 Letters Part My Expertise
+
+const arrayCard3Letters = [
+    "MY EXPERTISE",
+]
+
+let card3Array = document.getElementById("card3Letters")
+
+card3Array.innerHTML = "";
+
+card3Array.innerHTML = `
+<h1 class="font-semibold text-white text-[23px]">${arrayCard3Letters[0]}</h1>
+`
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Card 3 mini Text
+
+const arrayCard3miniText = [
+"BACKEND",
+"98%",
+]
+
+let Card3miniText = document.getElementById("Card3miniText")
+
+Card3miniText.innerHTML = "";
+
+Card3miniText.innerHTML = `
+ <p class="text-white">${arrayCard3miniText[0]}</p>
+                        <div class="border border-white w-38 h-0 mt-1 ml-1 "></div>
+                        <div class="bg-purple-900 border-white border-2 mt-1 left-50 rounded-full h-3 w-3 absolute"></div>
+                        <p class="text-white font-semibold ml-7">${arrayCard3miniText[1]}</p>`
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Card 3 mini Text Part 2
+
+const arrayCard3miniText2 = [
+"CMS",
+"90%",
+]
+
+let Card3miniText2 = document.getElementById("Card3miniText2")
+
+
+
+Card3miniText2.innerHTML = "";
+
+Card3miniText2.innerHTML = `
+<p class="text-white">${arrayCard3miniText2[0]}</p>
+                     <div class="border border-white w-38 h-0 mt-1 ml-1 "></div>
+                     <div class="bg-cyan-500 border-white border-2 mt-1 left-35 rounded-full h-3 w-3 absolute"></div>
+                     <p class="text-white font-semibold ml-14">${arrayCard3miniText2[1]}</p>`
+                     
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Card 3 mini Text Part 3
+
+const arrayCard3miniText3 = [
+"FRONTEND",
+"91%",
+]
+
+let Card3miniText3 = document.getElementById("Card3miniText3")
+
+Card3miniText3.innerHTML = "";
+
+Card3miniText3.innerHTML = `
+ <p class="text-white">${arrayCard3miniText3[0]}</p>
+                    <div class="border border-white w-38 h-0 mt-1 ml-1 "></div>
+                    <div class="bg-green-700 border-white border-2 mt-1 left-45 rounded-full h-3 w-3 absolute"></div>
+                    <p class="text-white font-semibold ml-2">${arrayCard3miniText3[1]}</p>
+`
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//WHO AM I?
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 1
+
+const arrayPhoto = [
+    "./Photo/MisionPhoto.jpeg",
+    "./Photo/PersonalPhoto.jpeg",
+]
+
+
+let sectionphoto = document.getElementById("photoSection")
+
+sectionphoto.innerHTML = "";
+
+sectionphoto.innerHTML += `
+    
+    <!-- Foto 1 -->
+    <section>
+     <img src="${arrayPhoto[0]}" class="h-40 w-30 rounded-[10px] rotate-[-10deg] ml-30 border-white  drop-shadow-5xl dark:drop-shadow-5xld transition ease-in-out delay-500 duration-[1s]">
+    </section>
+
+
+    <!-- Foto 2 -->
+        <section>
+       <img src="${arrayPhoto[1]}" class="h-60 w-40 rounded-[10px] rotate-[10deg] border-white  drop-shadow-6xl dark:drop-shadow-6xld transition ease-in-out delay-500 duration-[1s]">
+        </section>
+`
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 2 WHO AM I?
+
+const arrayH1Section = [
+    "WHO AM I ?",
+]
+
+let sectionH1 = document.getElementById("h1section")
+
+sectionH1.innerHTML = "";
+
+sectionH1.innerHTML += `
+<h1 class="text-[#A4FF7A] dark:text-[#034ec7d7]  mx-auto text-center text-[70px] mt-[-30px] font-semibold transition ease-in-out delay-500 duration-[1s]">${arrayH1Section[0]}</h1>
+`
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 2 Text
+
+const arrayParagraphText = [
+    "I am a Front-End website developer specialized in ReactJs Plus, I also know some Wordpress front-end and development with Elementor  and WooComerce.",
+    "Programming is my passion, that´s the reasson I am working at the time of my academic carrer.",
+    "Additonally, I line to play Pc games and reed story-type books in my leisume time which is kinda fun and relaxing.",
+]
+
+let paragraphText = document.getElementById("paragraphText")
+
+paragraphText.innerHTML = "";
+
+paragraphText.innerHTML += `
+<p>${arrayParagraphText[0]}
+            </p>
+            <br>
+            <p>${arrayParagraphText[1]}</p>
+            <br>
+            <p>${arrayParagraphText[2]}</p>
+`
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 2 button
+
+const arrayButtonSection = [
+"SHOW MY PROJECTS",
+]
+
+let buttonArray = document.getElementById("sectionbutton")
+
+buttonArray.innerHTML = "";
+
+buttonArray.innerHTML += `
+ <a href="">${arrayButtonSection}</a>
+`
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Section 3
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+const arraySection3 = [
+    "./Photo/EvaniPhoto.jpeg",
+]
+
+let section3 = document.getElementById("photoSection3")
+
+section3.innerHTML = "";
+
+section3.innerHTML += `
+ <img src="${arraySection3[0]}" class="h-60 w-40 rounded-[10px] rotate-[5deg] border-white  drop-shadow-4xl dark:drop-shadow-4xld transition ease-in-out delay-500 duration-[1s]">
+`
